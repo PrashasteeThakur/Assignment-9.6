@@ -26,7 +26,11 @@ Ans.The shell in apache pig is called grunt shell, we can launch this grunt shel
 
 3.Explain how pig differs from Map reduce.
 
-Ans.
+Ans.Pig simplifies the use of Hadoop by allowing SQL-like queries to a distributed dataset. 
+• Pig provides an engine for executing data flows in parallel on Hadoop. It includes a language, Pig Latin, for expressing these data flows. 
+• Pig Latin includes operators for many of the traditional data operations (join, sort, filter, etc.), as well as the ability for users to develop their own functions for reading, processing, and writing data. 
+• But MapReduce requires java programmers and programmers must think in terms of map and reduce functions. 
+• In Pig Latin joins and ordering codes comprise of 8-9 lines of code and take few minutes to write and debug. The same code in MapReduce will span hundred lines of code and takes hours to develop.Thus using pig there is decrease in development time,complexity,time-spent in maintenance of the programs.
 
 4.Explain how pig differs from sql.
 
