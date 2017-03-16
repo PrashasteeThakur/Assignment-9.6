@@ -22,7 +22,7 @@ Ans.Different complex data types in pig are
 
 2.How can you interact with the shell in Apache pig?
 
-Ans.
+Ans.The shell in apache pig is called grunt shell, we can launch this grunt shell by using simple command “pig” or “pig -x local”.
 
 3.Explain how pig differs from Map reduce.
 
